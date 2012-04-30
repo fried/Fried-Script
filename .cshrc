@@ -44,11 +44,7 @@ unset dir
 if ($?prompt && $?term) then
     alias reload	source ~/.cshrc #Reloads this file
 
-    #This is for easy to change distro settings
-    set distloc='http://jasonfried.info/friedscript/'
-    set distfile='cshrc.tar.gz'
     set arctool='tar -zxf'
-    #gettool is declared with the OS crap
 
     #set the permissions for new files
     umask 022
