@@ -328,7 +328,7 @@ if ($?prompt && $?term) then
     endif
     #This is the update command
     if ("$gettool" != "NONE") then
-	alias cshrcupdate	'pushd . && cd && mv -f .zshrc .zshrc.old && ${gettool} ${distloc}${distfile} && reload && popd'
+	alias cshrcupdate	'pushd . && cd && mv -f .cshrc .cshrc.old && ${gettool} ${distloc}${distfile} && reload && popd'
     else
 	alias cshrcupdate	'echo "Disabled, lacking a file fetch utility for your OS"'
     endif
