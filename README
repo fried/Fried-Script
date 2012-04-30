@@ -1,0 +1,7 @@
+Fried Script .cshrc
+
+grab a copy
+    wget https://raw.github.com/fried/Fried-Script/master/.cshrc
+
+This is my old csh then tcsh config. csh compatibility is pretty much shot, but it works will with tcsh.
+I have since moved to zsh. 
